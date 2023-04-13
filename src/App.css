@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+ 
+@media screen and (max-width: 742px) {
+  .sub_div {
+    height: auto;
+  }
+
+  .Options {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 666px) {
+  .option_btn {
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid rgb(212, 212, 212);
+    cursor: pointer;
+  }
+  .option_btn_false {
+    background-color: red;
+    color: white;
+  }
+
+  .option_btn_true {
+    background-color: green;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .sub_div {
+    width: 100%;
+  }
+
+  .sub_div_main {
+    width: 100%;
+  }
+
+  .instructionHeading {
+    padding: 2%;
+  }
+
+  .instructions {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .instructions > li {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+
+  .instructionsBtnBox {
+    margin: 2%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .sub_div_result {
+    width: 60%;
+  }
+
+  .result_heading {
+    margin-bottom: 2%;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 268px) {
+  .sub_div_result {
+    width: 95%;
+  }
+  .result_heading {
+    margin-bottom: 2%;
+    font-size: 0.5rem;
+  }
+}

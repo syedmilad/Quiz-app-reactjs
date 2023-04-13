@@ -1,0 +1,42 @@
+.msg {
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+  
+  .sub_div_result {
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    padding: 1%;
+    text-align: center;
+    box-shadow: 4px 4px 10px 3px #cfcfcf;
+  }
+  
+  .result_heading > h2 {
+    color: rgb(47, 154, 255);
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .result_heading {
+    margin-bottom: 2%;
+  }
+  
+  .quit_btn_div {
+    margin-top: 8%;
+  }
+  
+  .quit_btn {
+    background-color: rgb(219, 2, 2) !important;
+    border: none;
+    width: 100%;
+    font-weight: 670;
+    color: white;
+  }
+  
+  .quit_btn:hover {
+    background-color: rgb(185, 1, 1) !important;
+    border: none;
+    color: white !important;
+  }

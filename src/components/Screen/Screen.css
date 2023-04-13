@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainBox{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 5%;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    /* position: relative; */
+}
+
+.subMainBox{
+    border: none;
+    border-radius: 10px;
+    width: 60%;
+    padding: 3%;
+    box-shadow: 4px 4px 10px 3px #cfcfcf;
+}
+
+.instructionHeading{
+    font-size: 16px;
+    padding: 10px;
+}
+
+.instructions{
+    width: 90%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.instructions > li {
+    margin-top: 10px;
+}
+
+.instructionsBtn{
+    margin-top: 20px;
+};
